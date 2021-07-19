@@ -1,0 +1,8 @@
+[
+     {
+          "id": "0",
+          "description": "Index", 
+          "route": "/",
+          "renderFile": "/index/index.pug"
+     }
+]
