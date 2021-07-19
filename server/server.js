@@ -35,7 +35,7 @@ routes.forEach(route => {
 
      // GET Routes
      app.get(`${Route}`, (req,res) => {
-          res.send(pug.renderFile(`../app${renderFile}`)); 
+          res.send(pug.renderFile(`./app${renderFile}`)); 
      }); 
 });
 
