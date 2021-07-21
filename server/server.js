@@ -42,7 +42,8 @@ routes.forEach(route => {
 // Firing up Application
 const port = config.port; 
 app.listen(port, () => {
+     console.log(chalk.blueBright('===== MoonWalker App =====')); 
      consola.success(chalk.greenBright(`MoonWalker Server Running on Port ${port}`));
-     console.log(chalk.greenBright('Visit \'/activeRoutes\' to see all the available routes')); 
-     console.log(chalk.greenBright('Request Logs - ')); 
+     console.log(chalk.greenBright('-> Visit \'/activeRoutes\' to see all the available routes')); 
+     console.log(chalk.blueBright('-> Request Logs - ')); 
 }); 
