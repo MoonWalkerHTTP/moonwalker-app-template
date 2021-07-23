@@ -21,6 +21,7 @@ const app = express();
 app.use(morgan('dev')); 
 app.use(helmet()); 
 app.use(cors()); 
+app.use('/css', express.static('./css')) 
 
 // Routes 
 app.get('/activeRoutes', (req,res) => {
